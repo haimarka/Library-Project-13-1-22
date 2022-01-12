@@ -7,7 +7,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/152Mz4U1HwqH3nCwITVSQvD9rT0=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_eb1afb291e76f2508390a788e91a12429be6fa09.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
         
     },
     { 
@@ -18,7 +19,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/2Tuqndlpb4JohiNCrRAnze9GSaE=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_d998396cdde46cc8873df378af37d448b4208737.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
 
     },
     { 
@@ -29,7 +31,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/CbcF_37zbmjEkA2MkYaUs2ie3TQ=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_add4ec93ed730eaaa9ccc0de3caf026cf102c022.jpg",
         "readding": true,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
 
     },
     { 
@@ -40,7 +43,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/wXDAcRKtnYM6GKcJD0qTTQkjNR8=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_a80ea424f5d92a48f7c04919503a1baa9e093657.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
 
     },
     { 
@@ -51,7 +55,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/s3DOdAar_irUMf5F5vnFNQaIIV0=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_733169aa015508a635684413f9aea45bff4121a3.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
 
     },
     { 
@@ -62,7 +67,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/CqRwpnG3L5PAgGBFUTcxqwjPwq8=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_15d6f995004a88031ab7bc756dc3662aa42c6586.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":6,
@@ -72,7 +78,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/reQywYaxLytn1DtVZLktMIdn9gI=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_6891677dff88c89ee49b983eab12dd802b29689b.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":7,
@@ -82,7 +89,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/uOtaRr04Z6lYFraVqKHKIlW_kIY=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_96cc40c206d368983ef48ddbdc0e0d58d8d4ffb6.jpg",
         "readding": false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":8,
@@ -92,7 +100,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/-cCKhygedv3DyA6RJLYcd8JcP34=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_4adbe7a3ae4107ac42715472199337e899d74939.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":9,
@@ -103,7 +112,8 @@
         "readding":true,
         "completed": true
 ,
-"note": ""    },
+"note": "",
+"rate": 0    },
     { 
         "id":10,
         "bookName": "Empire of Pain",
@@ -112,7 +122,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/xDDFojYgQZlv2jR_Daaqr_e5Lo8=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_0035bdd924e68e3532ba9368c5730eb24c5f4d96.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":11,
@@ -122,7 +133,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/sqf6PE3ZlFDqA4dOna4bsWjmW5A=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_8044c2f1e106c191a609d5706bf11f3cbbe0706e.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":12,
@@ -132,7 +144,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/bof4lSASXatOT6v-SDxnHEZE20A=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_b67e7259f4910bd6107a7f9b9b6805bcfd40d9f8.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":13,
@@ -142,7 +155,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/M0KTw0u45ayNly_26i5FOin81xk=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_8715bf1ee8775a58ef96051b46f1d382f4f486d0.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":14,
@@ -152,7 +166,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/wkpdti9XAuABSwfJnk9dH9yWGQ4=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_5bfa2193bd94a2fcad2fe365aa8ce56a7bf16cce.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":15,
@@ -162,7 +177,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/KqYCtCHx3emSIHzjEB9BBTbqQJ0=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_3e909017e0f5881458623fed070f36f3945849b4.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":16,
@@ -172,7 +188,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/JRtzrmvLMDiPXX-uX433LRiY5Is=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_2c6c9cd48bbbbdf66c6d3fa18448ba849124a66f.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":17,
@@ -182,7 +199,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/qkcl6ida9QgYXFtrBDEHZxU6B5E=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_6b4ed726dfcf083f07c2fb18e47026f3d27763c2.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":18,
@@ -192,7 +210,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/kWko6CclLdCFQxW3IfDUjlOuDKw=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_f3f1853080cef0da8ce86242ffa5c942abaea4e3.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":19,
@@ -202,7 +221,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/owQcoOzVMLq5PgaxU6gJL_DwwYA=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_4093230e98a35c4795350d30915be481f431d50f.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":20,
@@ -212,7 +232,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/yxEE46fI2uHzE8LGeFUiJb5UhgE=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_6bcada2debfc06445e40e4d64ca2a48613d5d3c8.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":21,
@@ -222,7 +243,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/B6wFROGpmcaIot9a4Sf298PYYQw=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_5716c34c488318f183405e26c76ad93eb2204d4a.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":22,
@@ -232,7 +254,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/6gpbaQ93_yKd9YT3DFPXTQq5bls=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_8028955e0d84ca8e5c3659301d10f63c2844904c.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":23,
@@ -242,7 +265,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/l0Z0ssmsGXjJ7tPk-V7KVniajGs=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_423570feeb64b554a2d873968620eaef1a216b21.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":24,
@@ -252,7 +276,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/vzkqVqVCoeUJunfWIhfNRg5YVsI=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_efeea849bc8003ef4673c0b5f759bc798bef4ca4.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":25,
@@ -262,7 +287,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/D5FeZKG2cKD6qvN6NcEC0qwGc3M=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_7d914bb1babde7d73cc1b50ea1c5e4217e833893.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":26,
@@ -272,7 +298,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/p5BmT16GtKnslhX9IVF4rhgNDYg=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_5544a0a306ad3a63e877154f726582ff9b5f8865.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":27,
@@ -282,7 +309,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/6evEdztSxzVPi6dkI9oqfW5qu24=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_bdc6f3e9494bb6877fc2f4abcd900a1eca933aa4.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":28,
@@ -292,7 +320,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/HpBMqzpCVDZbXGqhuCVa6tzRolA=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_d0f9d7472cc94fc6627b16694b25ca0ece8be722.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":29,
@@ -302,7 +331,8 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/EXGBL3gGx_Xj8gDhlfhNega7Q4U=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_40d359e1b2681bfaea7e5c047ef53a5518022fbc.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     },
     { 
         "id":30,
@@ -312,5 +342,6 @@
         "img": "https://th-thumbnailer.cdn-si-edu.com/GFGHTFr-0hd4uPGgzVpUCsSmAXs=/fit-in/300x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/amazon/amazon_image_d2b17ab3d8bf85f266b5cf7e2849dc2deca03a20.jpg",
         "readding":false,
         "completed": false,
-        "note": ""
+        "note": "",
+        "rate": 0
     }] }

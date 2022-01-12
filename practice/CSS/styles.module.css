@@ -8,8 +8,6 @@
     margin-left: 44%;
 }
 
-
-
 .logInBtn {
   position: absolute;
   margin-top: 10%;
@@ -98,6 +96,29 @@ input[type='radio']{
   display: none;
 }
 
-/* .star{
-  color: orange;
-} */
+.addBookSection{
+  border: solid 2px black;
+  width: 60%;
+  height: 100%;
+  margin-top: 2%;
+  margin-left: 21%;
+  box-shadow:lightblue 10px 10px 70px;
+}
+
+.readdinBookSection{
+  border: solid 2px black;
+  height: 100%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 21%;
+}
+
+.completedBookSection{
+  border: solid 2px black;
+  height: 100%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 21%;
+}
+
+

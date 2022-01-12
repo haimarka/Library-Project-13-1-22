@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import axios from 'axios'
-// import Register from './components/Register'
-// import LogIn from './components/LogIn'
+// import Register from './Register'
+// import LogIn from './LogIn'
 
 
 export default function Home() {
