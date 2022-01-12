@@ -1,16 +1,12 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom';
-import { useState } from 'react';
 import * as styles from '../../CSS/styles.module.css'
-import { FaStar } from 'react-icons/fa';
+import Rating from './Rating';
 
-export default function CompletedList({Books,setData,isRedirect,setIsRedirect,setBookDetails,isLoading}) {
-    const [rating,setRating] = useState(null)
-    
+export default function CompletedList({Books,setData,isRedirect,setIsRedirect,setBookDetails,isLoading}) {    
     let temp = [...Books];
     if(isRedirect){
         return <Redirect to='/Details'/>
-
     }
 
     const completedBook = (i)=>{
@@ -20,31 +16,18 @@ export default function CompletedList({Books,setData,isRedirect,setIsRedirect,se
         setData(temp)     
     }
 
-    const removeBook = (i)=>{
-        temp.splice(i,1);
-        console.log('book delated');
-        setData(temp)     
-    }
+
     const element = temp.map((book,i)=>{
         if(book.completed && book.readding){
             return( 
-                <section key={book.id}>
-                    <div>
-                        {[...Array(5)].map((star,i)=>{
-                            const ratingValue = i + 1;
-                            return (<label key={i}>
-                                        <input type="radio" name="ratig" value={ratingValue} onClick={()=>setRating(ratingValue)} />
-                                        <FaStar color={ratingValue <= rating?'orange':'gray'} className={styles.star} size={50}/>
-                                    </label>)
-                        })}
-                    </div>
+                <section className={styles.completedBookSection} key={book.id}>
+                    <Rating book={book}/>
                     <h1 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.bookName}</h1>
                     <h3 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.author}</h3>
                     <img onClick={()=>{setIsRedirect(true),setBookDetails(book)}} style={{height:'250px',width:'250px'}} src={book.img}/>
                     <p>{book.readding}</p>
                     <p>{book.completed}</p>
-                    <button onClick={()=>{completedBook(i),console.log(temp)}}>complete</button>
-                    <button onClick={()=>{removeBook(i),console.log(temp)}}>remove</button>
+                    <img title='remove book' onClick={()=>{completedBook(i),console.log(temp)}} width='50px' height='50px' src='https://cdn-icons.flaticon.com/png/512/4033/premium/4033305.png?token=exp=1641978844~hmac=d31993e8f9c04c04e42b59668fe8f3a1'/>
                     <p onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.description.slice(0,300)}</p>
                 </section>
                 )
