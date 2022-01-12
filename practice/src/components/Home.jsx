@@ -2,6 +2,7 @@ import {useEffect} from 'react'
 import axios from 'axios'
 import { Link }from 'react-router-dom'
 import * as styles from '../../CSS/styles.module.css'
+import {Redirect} from 'react-router-dom'
 
 export default function Home({auth}) {
     useEffect(() => {
@@ -14,6 +15,8 @@ export default function Home({auth}) {
         .then(res=>res)
         .catch(err=>console.log(err.res))
     }
+
+    // if (auth) return <Redirect to='/BooksList'/>;
 
     return (
         <div>

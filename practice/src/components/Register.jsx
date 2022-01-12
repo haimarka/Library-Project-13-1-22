@@ -11,7 +11,7 @@ export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   const API_KEY = "AIzaSyCSD7xywuCnpvKnHnEnuoVyklqjM3tB-Pk";
   const URL = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${API_KEY}`;
   if(auth){
-    return <Redirect to='/'/>
+    return <Redirect to='/BooksList'/>
   }
   // else{
   //   return <Redirect to='/LogIn'/>

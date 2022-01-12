@@ -10,8 +10,6 @@ import CompletedList from './components/CompletedList'
 import Details from './components/Details'
 import useFetch from './Hooks/useFetch'
 
-
-
 function App() {
   const [auth, setAuth] = useState(null);
   const [isRedirect, setIsRedirect] = useState(false);
@@ -20,21 +18,16 @@ function App() {
   const [Books,setData ,isLoading] = useFetch('./data.json');
   const AUTH_LOCAL_STORAGE = 'Users_Ditails';
 
-  // if(isRedirect){
-  //   return <Redirect to='/'/>
-  // }
-
-<Route exact path="/">
-  
-  
-</Route>
-
-
-
   useEffect(()=>{
     let authStorage = JSON.parse(localStorage.getItem(AUTH_LOCAL_STORAGE))
     authStorage ? setAuth(authStorage) : null;
   },[])
+
+  const handleLogout = () => {
+    localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(''))
+    setAuth(null); 
+    document.location.href = "/";
+  }
 
   return (
       <BrowserRouter>
@@ -42,10 +35,7 @@ function App() {
 
           {auth?<Link to='/'>Home</Link>:''} {auth?<Link to='/CompletedList'>CompletedList</Link>:''} {auth?<Link to='/ReadingList'>ReadingList</Link>:''} {auth?<Link to='/BooksList'>BooksList</Link>:''} 
           <Switch>
-              <Route exact path='/'>
-              {loggedIn ? <Redirect to="/Home": /> : <PublicHomePage />}
-              </Route>
-              <Route exact path='/Home' render={()=><Home auth={auth}/>}/>
+              <Route exact path='/' render={()=><Home auth={auth}/>}/>
               <Route exact path='/Register' render={()=><Register auth={auth} setAuth={setAuth} AUTH_LOCAL_STORAGE={AUTH_LOCAL_STORAGE}/>}/>
               <Route exact path='/LogIn' render={()=><LogIn auth={auth} setAuth={setAuth} AUTH_LOCAL_STORAGE={AUTH_LOCAL_STORAGE}/>}/>
               <Route exact path='/BooksList' render={()=><BooksList setSearch={setSearch} searchInput={searchInput} isLoading={isLoading} Books={Books} setData={setData}/>}/>
