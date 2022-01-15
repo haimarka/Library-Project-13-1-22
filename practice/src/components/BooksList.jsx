@@ -13,11 +13,6 @@ export default function BooksList({searchInput,setSearch, Books, setData, isLoad
       <br />
       <input
         onChange={(e) => {
-        //   if (e.target.value) {
-        //     setHiddenBooks(true);
-        //   } else {
-        //     setHiddenBooks(false);
-        //   }
           setSearch(e.target.value);
         }}
         title="search book"
@@ -26,8 +21,6 @@ export default function BooksList({searchInput,setSearch, Books, setData, isLoad
       />{" "}
       <br /> <br />
       <ApllayMap
-        // setHiddenBooks={setHiddenBooks}
-        // hiddenBooks={hiddenBooks}
         searchInput={searchInput}
         isLoading={isLoading}
         setData={setData}

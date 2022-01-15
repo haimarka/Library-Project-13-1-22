@@ -1,3 +1,11 @@
+body{
+  /* background-image: url('https://wallpaperaccess.com/full/1209397.jpg');
+  background-size:cover;
+  background-repeat:no-repeat; */
+  background-attachment: fixed;
+  /* background-image: linear-gradient(lightblue, yellow); */
+}
+
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 16px solid #3498db; /* Blue */
@@ -96,29 +104,79 @@ input[type='radio']{
   display: none;
 }
 
-.addBookSection{
-  border: solid 2px black;
+.linksContainer{
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 7vh;
+}
+
+.links{
+  margin-top: 1%;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.displayBooks{
+  display: flex;
+  border: solid 0.5px lightblue;
   width: 60%;
-  height: 100%;
+  height: 50vh;
   margin-top: 2%;
   margin-left: 21%;
   box-shadow:lightblue 10px 10px 70px;
 }
 
-.readdinBookSection{
-  border: solid 2px black;
-  height: 100%;
-  width: 60%;
-  margin-top: 2%;
-  margin-left: 21%;
+.booksImage{
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 15vw;
+  height: 40vh;
+  transition: 1s;
 }
 
-.completedBookSection{
-  border: solid 2px black;
-  height: 100%;
-  width: 60%;
-  margin-top: 2%;
-  margin-left: 21%;
+.booksImage:hover{
+  transition: 1s;
+  transform: scale(110%);
 }
 
+.bookDetails{
+  width: 50%;
+  margin-left: 5%;
+}
+
+.addBookIconBooksList{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 16%;
+}
+
+.addBookIconReadding{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 16%;
+}
+
+.renoveBookIconReadding{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 16%;
+}
+
+.starsRating{
+  width: 100%;
+  height: 100%;
+}
+
+.completBookIcon{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 19%;
+}
+
+
+.changes{
+  background-color: blue;
+}
 

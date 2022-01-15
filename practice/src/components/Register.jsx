@@ -13,9 +13,7 @@ export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   if(auth){
     return <Redirect to='/BooksList'/>
   }
-  // else{
-  //   return <Redirect to='/LogIn'/>
-  // }
+  
   const isValid = ()=>{
     return(email.length && password.length && confirmPassword.length )
   }

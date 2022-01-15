@@ -11,7 +11,7 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   const API_KEY = "AIzaSyCSD7xywuCnpvKnHnEnuoVyklqjM3tB-Pk";
   const URL = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`;
 
-  if(auth) return <Redirect to='/BooksList'/>
+  // if(auth) return <Redirect to='/BooksList'/>
 
   useEffect(() => {
     setIsDisable(!formEl.current.checkValidity());
@@ -35,6 +35,8 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
           setHasError(true)
             )});
   };
+  if(auth) return <Redirect to='/BooksList'/>
+
   return (
     <div>
         <h3>Log In</h3>

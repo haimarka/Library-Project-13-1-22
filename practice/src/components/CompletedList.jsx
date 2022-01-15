@@ -20,15 +20,15 @@ export default function CompletedList({Books,setData,isRedirect,setIsRedirect,se
     const element = temp.map((book,i)=>{
         if(book.completed && book.readding){
             return( 
-                <section className={styles.completedBookSection} key={book.id}>
-                    <Rating book={book}/>
-                    <h1 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.bookName}</h1>
+                <section className={styles.displayBooks} key={book.id}>
+                    <img className={styles.booksImage} onClick={()=>{setIsRedirect(true),setBookDetails(book)}}  src={book.img}/>
+                  <div className={styles.bookDetails}>  <Rating className={styles.starsRating} book={book}/>
+                   <h1 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.bookName}</h1>
                     <h3 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.author}</h3>
-                    <img onClick={()=>{setIsRedirect(true),setBookDetails(book)}} style={{height:'250px',width:'250px'}} src={book.img}/>
                     <p>{book.readding}</p>
                     <p>{book.completed}</p>
-                    <img title='remove book' onClick={()=>{completedBook(i),console.log(temp)}} width='50px' height='50px' src='https://cdn-icons.flaticon.com/png/512/4033/premium/4033305.png?token=exp=1641978844~hmac=d31993e8f9c04c04e42b59668fe8f3a1'/>
-                    <p onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.description.slice(0,300)}</p>
+                    <p onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.description.slice(0,300)}</p></div> 
+                    <img className={styles.completBookIcon} title='remove book' onClick={()=>{completedBook(i),console.log(temp)}} width='50px' height='50px' src='https://cdn-icons.flaticon.com/png/512/4033/premium/4033305.png?token=exp=1642020256~hmac=5be572d47ba55669acf4085fb6765c1f'/>
                 </section>
                 )
         }

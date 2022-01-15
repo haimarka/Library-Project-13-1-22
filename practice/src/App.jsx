@@ -9,10 +9,13 @@ import ReadingList from './components/ReadingList'
 import CompletedList from './components/CompletedList'
 import Details from './components/Details'
 import useFetch from './Hooks/useFetch'
+import * as styles from '../CSS/styles.module.css'
+
 
 function App() {
   const [auth, setAuth] = useState(null);
   const [isRedirect, setIsRedirect] = useState(false);
+  const [showLogIn, setShowLogIn] = useState(false);
   const [bookDetails, setBookDetails] = useState({});
   const [searchInput, setSearch] = useState("");
   const [Books,setData ,isLoading] = useFetch('./data.json');
@@ -33,7 +36,7 @@ function App() {
       <BrowserRouter>
         <div className="App"> 
 
-          {auth?<Link to='/'>Home</Link>:''} {auth?<Link to='/CompletedList'>CompletedList</Link>:''} {auth?<Link to='/ReadingList'>ReadingList</Link>:''} {auth?<Link to='/BooksList'>BooksList</Link>:''} 
+          <div className={styles.linksContainer}> {auth?<Link className={styles.links} to='/BooksList'>BooksList</Link>:''} {auth?<Link className={styles.links} to='/ReadingList'>ReadingList</Link>:''} {auth?<Link className={styles.links} to='/CompletedList'>CompletedList</Link>:''} {auth?<Link className={styles.links} to='/'>Home</Link>:''} </div>
           <Switch>
               <Route exact path='/' render={()=><Home auth={auth}/>}/>
               <Route exact path='/Register' render={()=><Register auth={auth} setAuth={setAuth} AUTH_LOCAL_STORAGE={AUTH_LOCAL_STORAGE}/>}/>
