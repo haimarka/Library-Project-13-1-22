@@ -1,6 +1,7 @@
 import {useState} from "react";
 import axios from "axios";  
 import { Redirect } from "react-router-dom";
+import * as styles from '../../CSS/styles.module.css'
 
 export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   const [email, setEmail] = useState("");
@@ -25,18 +26,20 @@ export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
         confirmPassword
       })
       .then((res) => {
-          console.log(res),
-          localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(res))
-          setAuth(res),
-          setError(false)
+          console.log(res);
+          localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(res));
+          setAuth(res);
+          setError(false);
+        document.location.href = "/BooksList";
+
         })
       .catch((err) => {
-          console.log(err.res,
-          setError(true)
-            )});
+          console.log(err)
+          setError(true);
+            });
   };
   return (
-    <div>
+    <div className={styles.RegisterPopOut}>
         <h3>Register</h3>
       <form
         onSubmit={(e) => {

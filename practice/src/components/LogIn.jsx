@@ -1,6 +1,8 @@
 import {useState, useEffect, useRef} from "react";
 import axios from "axios"; 
 import { Redirect } from "react-router-dom";
+import * as styles from '../../CSS/styles.module.css'
+
 
 export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   const [email, setEmail] = useState("");
@@ -25,20 +27,23 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
         password,
       })
       .then((res) => {
-          console.log(res),
-          setAuth(res),
-          localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(res))
-          setHasError(false)
+          console.log(res);
+          setAuth(res);
+          localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(res));
+          setHasError(false);
+        document.location.href = "/BooksList";
+
+        
         })
       .catch((err) => {
-          console.log(err.res,
-          setHasError(true)
-            )});
+          console.log(err);
+          setHasError(true);
+            });
   };
   if(auth) return <Redirect to='/BooksList'/>
 
   return (
-    <div>
+    <div className={styles.LogInPopOut}>
         <h3>Log In</h3>
       <form
         ref={formEl}

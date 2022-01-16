@@ -1,14 +1,15 @@
 import ApllayMap from "./ApllayMap.jsx";
 import * as styles from "../../CSS/styles.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export default function BooksList({searchInput,setSearch, Books, setData, isLoading }) {
+export default function BooksList({ Books, setData, isLoading }) {
+  const [searchInput, setSearch] = useState("");
 
   return (
     <div>
       <h4>Books List</h4>
       {isLoading ? <div className={styles.loader}></div> : ""}
-      <label>Serch A Book:</label>
+      <label>Search A Book:</label>
       <br />
       <br />
       <input

@@ -22,7 +22,7 @@ export default function CompletedList({Books,setData,isRedirect,setIsRedirect,se
             return( 
                 <section className={styles.displayBooks} key={book.id}>
                     <img className={styles.booksImage} onClick={()=>{setIsRedirect(true),setBookDetails(book)}}  src={book.img}/>
-                  <div className={styles.bookDetails}>  <Rating className={styles.starsRating} book={book}/>
+                  <div className={styles.bookDetails}>  <Rating Books={Books} setData={setData} className={styles.starsRating} book={book}/>
                    <h1 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.bookName}</h1>
                     <h3 onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.author}</h3>
                     <p>{book.readding}</p>
