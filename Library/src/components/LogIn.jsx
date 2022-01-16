@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from "react";
-import axios from "axios"; 
 import { Redirect } from "react-router-dom";
+import axios from "axios"; 
 import * as styles from '../../CSS/styles.module.css'
 
 
@@ -12,8 +12,6 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   const formEl = useRef(null);
   const API_KEY = "AIzaSyCSD7xywuCnpvKnHnEnuoVyklqjM3tB-Pk";
   const URL = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`;
-
-  // if(auth) return <Redirect to='/BooksList'/>
 
   useEffect(() => {
     setIsDisable(!formEl.current.checkValidity());
@@ -44,7 +42,7 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
 
   return (
     <div className={styles.LogInPopOut}>
-        <h3>Log In</h3>
+        <h3 style={{color: 'white'}}>Log In</h3>
       <form
         ref={formEl}
         onSubmit={LogInVerification}

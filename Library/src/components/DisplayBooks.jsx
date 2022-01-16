@@ -1,8 +1,7 @@
-import { useState } from "react";
 import * as styles from "../../CSS/styles.module.css";
 import Rating from "./Rating";
 
-export default function ApllayMap({ Books, setData, searchInput }) {
+export default function DisplayBooks({ Books, setData, searchInput }) {
 
   const updateTemp = (book) => {
     let temp = [...Books];
@@ -25,16 +24,18 @@ export default function ApllayMap({ Books, setData, searchInput }) {
       book.description.toLowerCase().includes(searchInput.toLowerCase())
     );
   });
+
   booksFilter = searchInput ? booksFilter : booksFilter.slice(0, 10);
+  
   return (
     <div>
       {booksFilter.map((book) => {
         if ((!book.readding && !book.completed) || book.readding) {
           return (
             <section className={styles.displayBooks} key={book.id}>
-              <Rating isEditable={false} className={styles.starsRating} book={book}/>
               <img className={styles.booksImage} src={book.img} />
               <div className={styles.bookDetails}>
+              <Rating isEditable={false} className={styles.starsRating} book={book}/>
                 <h1>{book.bookName}</h1>
                 <h3>{book.author}</h3>
                 <p>{book.readding}</p>

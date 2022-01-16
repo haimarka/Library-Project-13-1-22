@@ -32,7 +32,7 @@ export default function Details({Books,setData,bookDetails,isLoading,isRedirect,
             <img style={{height:'250px',width:'250px'}} src={bookDetails.img}/>
             <p>{bookDetails.description}</p>
             <textarea onChange={showNots} defaultValue={bookDetails.note?bookDetails.note:''} cols="150" rows="10"/><br />
-            <button onClick={()=>setIsRedirect(false)}>go back</button>
+            <button className={styles.goBackDetailsBtn} onClick={()=>setIsRedirect(false)}><span>go back</span></button>
         </div>
     )
 }

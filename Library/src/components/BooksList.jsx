@@ -1,6 +1,6 @@
-import ApllayMap from "./ApllayMap.jsx";
+import { useState } from "react";
+import DisplayBooks from "./DisplayBooks.jsx";
 import * as styles from "../../CSS/styles.module.css";
-import { useState, useEffect } from "react";
 
 export default function BooksList({ Books, setData, isLoading }) {
   const [searchInput, setSearch] = useState("");
@@ -21,7 +21,7 @@ export default function BooksList({ Books, setData, isLoading }) {
         placeholder="Search"
       />{" "}
       <br /> <br />
-      <ApllayMap
+      <DisplayBooks
         searchInput={searchInput}
         isLoading={isLoading}
         setData={setData}

@@ -1,7 +1,6 @@
-import React from 'react'
 import { Redirect } from 'react-router-dom';
-import * as styles from '../../CSS/styles.module.css'
 import Rating from './Rating';
+import * as styles from '../../CSS/styles.module.css'
 
 export default function CompletedList({Books,setData,isRedirect,setIsRedirect,setBookDetails,isLoading}) {    
     let temp = [...Books];

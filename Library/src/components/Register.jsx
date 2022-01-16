@@ -1,6 +1,6 @@
 import {useState} from "react";
-import axios from "axios";  
 import { Redirect } from "react-router-dom";
+import axios from "axios";  
 import * as styles from '../../CSS/styles.module.css'
 
 export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
@@ -40,7 +40,7 @@ export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
   };
   return (
     <div className={styles.RegisterPopOut}>
-        <h3>Register</h3>
+        <h3 style={{color: 'white'}}>Register</h3>
       <form
         onSubmit={(e) => {
           e.preventDefault();
