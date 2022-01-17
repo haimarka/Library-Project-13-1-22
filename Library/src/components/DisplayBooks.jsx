@@ -1,5 +1,5 @@
-import * as styles from "../../CSS/styles.module.css";
 import Rating from "./Rating";
+import * as styles from "../../CSS/styles.module.css";
 
 export default function DisplayBooks({ Books, setData, searchInput }) {
 

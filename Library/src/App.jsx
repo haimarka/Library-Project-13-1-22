@@ -32,8 +32,8 @@ function App() {
       <BrowserRouter>
         <div className="App"> 
 
-          {auth?<div className={styles.linksContainer}> {auth?<Link className={styles.links} to='/BooksList'>BooksList</Link>:''} {auth?<Link className={styles.links} to='/ReadingList'>ReadingList</Link>:''} {auth?<Link className={styles.links} to='/CompletedList'>CompletedList</Link>:''} </div>:''}
-        {auth?<button title='click to sign out' className={styles.signOut} onClick={handleLogout}><span>sign out</span></button>:''}
+           {auth?<div className={styles.linksContainer}> {auth?<Link className={styles.links} to='/BooksList'>BooksList</Link>:''} {auth?<Link className={styles.links} to='/ReadingList'>ReadingList</Link>:''} {auth?<Link className={styles.links} to='/CompletedList'>CompletedList</Link>:''} </div>:''}
+            {auth?<button title='click to sign out' className={styles.signOut} onClick={handleLogout}><span>sign out</span></button>:''}
           <Switch>
               <Route exact path='/' render={()=><Home AUTH_LOCAL_STORAGE={AUTH_LOCAL_STORAGE} setAuth={setAuth} auth={auth}/>}/>
               <Route exact path='/BooksList' render={()=><BooksList isLoading={isLoading} Books={Books} setData={setData}/>}/>

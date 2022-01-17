@@ -29,7 +29,7 @@ export default function LogIn({setAuth,AUTH_LOCAL_STORAGE,auth}) {
           setAuth(res);
           localStorage.setItem(AUTH_LOCAL_STORAGE,JSON.stringify(res));
           setHasError(false);
-        document.location.href = "/BooksList";
+          document.location.href = "/BooksList";
 
         
         })
