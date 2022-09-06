@@ -19,7 +19,7 @@ export default function Rating({book,setData,Books,isEditable = true}) {
                             <input type="radio" name="rating" value={ratingValue} disabled={!isEditable} onClick={()=>{
                                 setRating(ratingValue);
                             }} />
-                            {isEditable ? <FaStar 
+                            {isEditable ? <FaStar
                             color={ratingValue <= (hover||book.rate)?'orange':'gray'}
                                  size={45}
                                 onMouseEnter={()=>setHover(ratingValue)}

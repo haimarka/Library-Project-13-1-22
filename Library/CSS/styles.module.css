@@ -2,9 +2,6 @@ body{
   background: linear-gradient(rgb(108, 108, 255), pink);
   background-repeat: no-repeat;
   background-size: cover;
-
-
-  
 }
 
 .loader {
@@ -211,8 +208,8 @@ body{
 
 .goBackDetailsBtn {
   position: absolute;
-  margin-left: 89%;
-  margin-top: -3%;
+  margin-left: 90.1%;
+  margin-top: -92%;
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -324,4 +321,152 @@ input[type='radio']{
   position: absolute;
   margin-left: 35%;
   margin-top: 19%;
+}
+
+@media screen and (max-width:1024px) {
+  .bookDetails{
+    font-size:80%;
+    width: 60%;
+    margin-left: 5%;
+  }
+  .addBookIconBooksList{
+    margin-top: 25%;
+  }
+  .booksImage{
+    margin-top: 5%;
+    width: 30%;
+  }
+  .signOut{
+    margin-left: 85%;
+    margin-top: 0.5%;
+  }
+  .addBookIconReadding{
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+  .renoveBookIconReadding{
+    margin-top: 20%;
+  }
+  .completBookIcon{
+    margin-top: 24%;
+    margin-left: 39%;
+  }
+  .LogInPopOut{
+    margin-left: 41%;
+  }
+  .RegisterPopOut{
+    margin-left: 41%;
+  }
+
+  .goBackDetailsBtn{
+    margin-top: -168%;
+    margin-left: 85%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .bookDetails{
+    font-size:75%;
+    width: 60%;
+    margin-left: 1%;
+  }
+  .addBookIconBooksList{
+    margin-top: 34%;
+    margin-left: 40%;
+  }
+  .booksImage{
+    margin-top: 5%;
+    width: 35%;
+  }
+  .signOut{
+    margin-left: 80%;
+    margin-top: 0.5%;
+  }
+  .addBookIconReadding{
+    margin-top: 30%;
+    margin-left: 42%;
+  }
+  .renoveBookIconReadding{
+    margin-top: 30%;
+  }
+  .completBookIcon{
+    margin-top: 33%;
+    margin-left: 39%;
+  }
+  .LogInPopOut{
+    margin-top: -80%;
+    margin-left: 36%;
+    width: 30%;
+    height: 35%;
+  }
+  .RegisterPopOut{
+    margin-top: -80%;
+    margin-left: 36%;
+    width: 30%;
+    height: 35%;
+  }
+  .backBtn{
+    margin-top: 10%;
+    margin-left: 42%;
+  }
+  .goBackDetailsBtn{
+    margin-top: -272%;
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .displayBooks{
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+
+  }
+  .addBookIconBooksList{
+    margin-top: 63%;
+    margin-left: 55%;
+  }
+  .booksImage{
+    margin-top: 8%;
+    width: 35%;
+  }
+  .signOut{
+    margin-left: 65%;
+    margin-top: -3%;
+  }
+
+  .addBookIconReadding{
+    margin-top: 55%;
+    margin-left: 65%;
+  }
+  .renoveBookIconReadding{
+    margin-top: 55%;
+    margin-left: 52%;
+  }
+  .completBookIcon{
+    margin-top: 63%;
+    margin-left: 55%;
+  }
+  .LogInPopOut{
+    margin-top: -80%;
+    margin-left: 36%;
+    width: 30%;
+    height: 35%;
+  }
+  .RegisterPopOut{
+    margin-top: -80%;
+    margin-left: 36%;
+    width: 30%;
+    height: 35%;
+  }
+  .backBtn{
+    margin-top: 10%;
+    margin-left: 42%;
+  }
+
+  .goBackDetailsBtn{
+    margin-top: -800%;
+    margin-left: 2%;
+  }
+ 
 }

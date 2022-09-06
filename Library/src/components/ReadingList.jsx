@@ -30,7 +30,7 @@ export default function ReadingList({Books,setData,isRedirect, setIsRedirect,set
                     <p>{book.completed}</p>
                     <p title='click to see book details' onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.description.slice(0,300)}</p></div>
                     <img className={styles.addBookIconReadding} title='delete book' onClick={()=>{removeBook(i),console.log(temp),setData(temp)}} width='56px' height='56px' src='https://cdn-icons-png.flaticon.com/512/6559/6559184.png'/>
-                    <img className={styles.renoveBookIconReadding} title='completed book' onClick={()=>{doneReadingBook(i),console.log(book),setData(temp)}} width='50px' height='50px' src="https://cdn-icons.flaticon.com/png/512/3934/premium/3934534.png?token=exp=1642019789~hmac=d653ab12ca1ef8d3cbdffd6b187de562"/>
+                    <img className={styles.renoveBookIconReadding} title='done book' onClick={()=>{doneReadingBook(i),console.log(book),setData(temp)}} width='56px' height='56px' src="https://cdn.iconscout.com/icon/premium/png-256-thumb/complete-1905771-1614469.png"/>
                 </section>
                 )
         }

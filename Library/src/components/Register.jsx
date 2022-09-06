@@ -46,7 +46,6 @@ export default function Register({setAuth,AUTH_LOCAL_STORAGE,auth}) {
           e.preventDefault();
           if(isValid){
             RegisterUser();
-
           }
         }}
       >

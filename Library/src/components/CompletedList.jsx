@@ -27,7 +27,7 @@ export default function CompletedList({Books,setData,isRedirect,setIsRedirect,se
                     <p>{book.readding}</p>
                     <p>{book.completed}</p>
                     <p onClick={()=>{setIsRedirect(true),setBookDetails(book)}}>{book.description.slice(0,300)}</p></div> 
-                    <img className={styles.completBookIcon} title='remove book' onClick={()=>{completedBook(i),console.log(temp)}} width='50px' height='50px' src='https://cdn-icons.flaticon.com/png/512/4033/premium/4033305.png?token=exp=1642020256~hmac=5be572d47ba55669acf4085fb6765c1f'/>
+                    <img className={styles.completBookIcon} title='return book' onClick={()=>{completedBook(i),console.log(temp)}} width='50px' height='50px' src='https://cdn0.iconfinder.com/data/icons/books-publishing/24/check-book-512.png'/>
                 </section>
                 )
         }
